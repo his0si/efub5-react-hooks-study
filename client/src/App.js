@@ -13,7 +13,6 @@ function App() {
         <h2>Item: {item}</h2>
         <button onClick={increment}>Increment</button>
         <button onClick={decrement}>Decrement</button>
-
         <input placeholder="Name" {...name} />
       </header>
     </div>
